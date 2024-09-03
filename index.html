@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font nunito google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet" />
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"   />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-rA2tfN9XU4fs7RdFt8y7etI4XN96CZ7L8BfiMKyplMlnreMwDO4OhziRbSt8Iab2uoFcJscZaSYdQzT+k6KoQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-S4sZaCqX4Bk8H3X5fUEF5+QwW9SzFJ6F8vnlH5AqFhRxW2GvTf3Rx2OqKkDGC+Ul9X6dhdjU1c4LFFU2/kcSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- main style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>covid-19</title>
+</head>
+
+<body class="" id="body">
+    <!-- scroll to top button -->
+    <button type="button" id="scroll-button">
+        <img class="img-fluid" src="https://img.icons8.com/?size=100&id=GGGwiQoDmkCJ&format=png&color=000000" alt="" />
+    </button>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">covid
+                <img src="./imgs/icon-covid-nav.png" alt="Logo" class="d-inline-block align-text-top"> 19
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#first-sec">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#second-sec">About corona</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#third-sec">symtoms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fourth-sec">prevention</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fifth-sec">treatment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sixth-sec">FaQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seventh-sec">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nineth-sec">do & don't</a>
+                    </li>
+                </ul>
+                <form class="text-center ">
+                    <button class="btn btn-sm btn-outline-secondary alig" type="button" id="mode">dark mode</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="containers">
+        <section class="mt-5 first-sec" id="first-sec">
+            <div class="container row mx-auto">
+                <div class="left-sec col-md-7 my-auto">
+                    <h1>corona <span class="span-one">(covid-19)</span> virus</h1>
+                    <p class="p-one">
+                        the corona virus <span class="span-one">(covid-19)</span> was
+                        first reported in wuhan,hubei, china in december 2019 , the
+                        outbreak was later recognized as a pandemic by the world health
+                        organization (who) on 11 march 2020 .
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <h5><span class="span-two">DEATH</span></h5>
+                            <h2>467.432</h2>
+                        </div>
+                        <div class="col">
+                            <h5><span class="span-two">RECOVERED</span></h5>
+                            <h2>4.556.091</h2>
+                        </div>
+                        <div class="col">
+                            <h5><span class="span-two">WORLD WIDE CASES</span></h5>
+                            <h2>8.949.671</h2>
+                        </div>
+                    </div>
+                    <p class="p-one">
+                        Last updated : Jun 21, 2020, 09:24 AM America/Chicago
+                    </p>
+                </div>
+                <div class="right-sec col-md-5">
+                    <img class="img-fluid my-5" src="imgs/header-a.png" alt="" id="head-sec-img" />
+                </div>
+            </div>
+        </section>
+
+        <section class="second-sec mt-5 py-4" id="second-sec">
+            <div class="container col">
+                <h3 class="text-center he1">ABOUT THE DISEASE</h3>
+                <h1 class="text-center he2">
+                    CORONAVIRUS <span class="span-one">(covid-19)</span>
+                </h1>
+                <p class="p-one">
+                    <span class="span-two">COVID-19</span> is a new illness that can
+                    affect your lungs and airways.
+                </p>
+                <p class="p-one">
+                    It's caused by a virus called coronavirus. It was discovered in
+                    December 2019 in Wuhan, Hubei, China.
+                </p>
+                <p class="p-one">
+                    Common signs of infection include respiratory symptoms, fever,
+                    cough, shortness of breath and breathing difficulties. In more
+                    severe cases, infection can cause pneumonia, severe acute
+                    respiratory syndrome, kidney failure and even death.
+                </p>
+                <p class="p-one">
+                    Standard recommendations to prevent infection spread include regular
+                    hand washing, covering mouth and nose when coughing and sneezing,
+                    thoroughly cooking meat and eggs. Avoid close contact with anyone
+                    showing symptoms of respiratoryillness such as coughing and sneezing
+                </p>
+            </div>
+        </section>
+        <section class="third-sec mt-5 py-4" id="third-sec">
+            <div class="col container">
+                <div class="row text-center">
+                    <h3 class="he1">HOW CORONAVIRUS IS SPREAD</h3>
+                    <h1 class="he2">
+                        TRANSMISSION OF <span class="span-one">(COVID-19)</span>
+                    </h1>
+                    <p class="p-two">
+                        Because it's a new illness, we do not know exactly how coronavirus
+                        spreads from person to person. Similar viruses are spread in cough
+                        droplets.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="imgs/spread-a.png" alt="" />
+                        <h6 class="he3">
+                            Person-to-person spread as close contact with infected
+                        </h6>
+                        <p class="p-two">
+                            The coronavirus is thought to spread mainly from person to
+                            person. This can happen between people who are in close contact
+                            with one another.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="imgs/spread-b.png" alt="" />
+                        <h6 class="he3">
+                            Touching or contact with infected surfaces or objects
+                        </h6>
+                        <p class="p-two">
+                            A person can get <span class="span-two">COVID-19</span> by
+                            touching a surface or object that has the virus on it and then
+                            touching their own mouth, nose, or possibly their eyes.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="imgs/spread-c.png" alt="" />
+                        <h6 class="he3">
+                            Droplets that from infected person coughs or sneezes
+                        </h6>
+                        <p class="p-two">
+                            The coronavirus is thought to spread mainly from person to
+                            person. This can happen between people who are in close contact
+                            with one another.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fourth-sec mt-5 py-4" id="fourth-sec">
+            <div class="container">
+                <div class="row text-center">
+                    <h4 class="he1">
+                        WHAT ARE THE SYMPTOMS OF <span class="span-one">COVID-19</span> ?
+                    </h4>
+                    <h1 class="he2">SYMPTOMS OF CORONAVIRUS</h1>
+                    <p class="p-one">
+                        The most common symptoms of
+                        <span class="span-two">COVID-19</span> are fever, tiredness, and
+                        dry cough. Some patients may have aches and pains, nasal
+                        congestion, runny nose, sore throat or diarrhea. These symptoms
+                        are usually mild and begin gradually. Also the symptoms may appear
+                        2-14 days after exposure.
+                    </p>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="he3">Fever</h4>
+                            </div>
+                            <div class="col text-end px-3">
+                                <img class="img-fluid rounded" src="imgs/symptom-a.png" alt="" />
+                            </div>
+                        </div>
+                        <p class="p-one">
+                            High Fever : this means you feel hot to touch on your chest or
+                            back (you do not need to measure your temperature). It is a
+                            common sign and also may appear in 2-10 days if you affected
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="he3">Cough</h4>
+                            </div>
+                            <div class="col text-end px-3">
+                                <img class="img-fluid rounded" src="imgs/symptom-b.png" alt="" />
+                            </div>
+                        </div>
+                        <p class="p-one">
+                            Continuous cough : this means coughing a lot for more than an
+                            hour, or 3 or more coughing episodes in 24 hours (if you usually
+                            have a cough, it may be worse than usual).
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="he3">Shortness of breath</h4>
+                            </div>
+                            <div class="col text-end px-3">
+                                <img class="img-fluid rounded" src="imgs/symptom-c.png" alt="" />
+                            </div>
+                        </div>
+                        <p class="p-one">
+                            Difficulty breathing : Around 1 out of every 6 people who gets
+                            <span class="span-one">COVID-19</span> becomes seriously ill and
+                            develops difficulty breathing or shortness of breath.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fifth-sec mt-5 py-4" id="fifth-sec">
+            <div class="container">
+                <div class="row">
+                    <h3 class="he1">HOW TO PROTECT YOURSELF</h3>
+                    <h1 class="he2">PREVENTION & ADVICE</h1>
+                    <p class="p-two">
+                        There is currently no vaccine to prevent coronavirus disease 2019
+                        <span class="span-two">(COVID-19)</span>. The best way to prevent
+                        illness is to avoid being exposed to this virus. Stay aware of the
+                        latest information on the
+                        <span class="span-two">COVID-19</span> outbreak, available on the
+                        WHO website and through your national and local public health
+                        authority.
+                    </p>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <img class="img-fluid justify-content-center" src="imgs/advice-a.png" alt="" />
+                        <h4 class="he3">Wash your hands frequently</h4>
+                        <p class="p-two">
+                            Regularly and thoroughly clean your hands with an alcohol-based
+                            hand rub or wash them with soap and water for at least 20
+                            seconds.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid" src="imgs/advice-b.png" alt="" />
+                        <h4 class="he3">Maintain social distancing</h4>
+                        <p class="p-two">
+                            Maintain at least 1 metre (3 feet) distance between yourself &
+                            anyone who is coughing or sneezing. If you are too close, get
+                            chance to infected.
+                        </p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img class="img-fluid" src="imgs/advice-c.png" alt="" />
+                        <h4 class="he3">Avoid touching face</h4>
+                        <p class="p-two">
+                            Hands touch many surfaces and can pick up viruses. So, hands can
+                            transfer the virus to your eyes, nose or mouth and can make you
+                            sick.
+                        </p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img class="img-fluid" src="imgs/advice-d.png" alt="" />
+                        <h4 class="he3">Practice respiratory hygiene</h4>
+                        <p class="p-two">
+                            Maintain good respiratory hygiene as covering your mouth & nose
+                            with your bent elbow or tissue when cough or sneeze.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sixth-sec mt-5 py-4" id="sixth-sec">
+            <div class="container row mx-auto">
+                <div class="col-md-7">
+                    <h1 class="he1">Take steps to protect others</h1>
+                    <h4 class="he2">1 : Stay home if you’re sick</h4>
+                    <p class="p-one">
+                        Stay home if you are sick, except to get medical care.
+                    </p>
+                    <h4 class="he2">2 : Cover your mouth and nose</h4>
+                    <p class="p-one">
+                        You should wear a facemask when you are around other people (e.g.,
+                        sharing a room or vehicle) and before you enter a healthcare
+                        provider’s.
+                    </p>
+                    <h4 class="he2">3 : Wear a facemask if you are sick</h4>
+                    <p class="p-one">
+                        You should wear a facemask when you are around other people (e.g.,
+                        sharing a room or vehicle) and before you enter a healthcare
+                        provider’s
+                    </p>
+                    <h4 class="he2">
+                        4 : Clean AND disinfect frequently touched surfaces daily
+                    </h4>
+                    <p class="p-one">
+                        This includes phones, tables, light switches, doorknobs,
+                        countertops, handles, desks, toilets, faucets, and sinks.
+                    </p>
+                    <h4 class="he2">5 : Clean the dirty surfaces</h4>
+                    <p class="p-one">
+                        Use detergent or soap and water prior to disinfection.
+                    </p>
+                    <h4 class="he2">
+                        6 : Stay informed about the local
+                        <span class="span-one">COVID-19</span> situation
+                    </h4>
+                    <p class="p-one">
+                        Get up-to-date information about local
+                        <span class="span-two">COVID-19</span> activity from
+                        <a href="">public health officials</a>
+                    </p>
+                    <h4 class="he2">7 : Dedicated, lined trash can</h4>
+                    <p class="p-one">
+                        If possible, dedicate a lined trash can for the ill person. Use
+                        gloves when removing garbage bags, and handling & disposing of
+                        trash.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="imgs/steps.png" alt="" class="img-fluid" />
+                </div>
+            </div>
+        </section>
+
+        <section class="seventh-sec mt-5 py-4" id="seventh-sec">
+            <div class="container">
+                <div class="row text-center">
+                    <h1 class="he1">Follow steps to wash hands</h1>
+                    <a href="">
+                        <p class="p-two">why do i need my hand ?</p>
+                    </a>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-2">
+                        <img src="imgs/hand-a.png" alt="" class="img-fluid" />
+                        <h5 class="he2">Soap on Hand</h5>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="imgs/hand-b.png" alt="" class="img-fluid" />
+                        <h5 class="he2">Palm to Palm</h5>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="imgs/hand-c.png" alt="" class="img-fluid" />
+                        <h5 class="he2">Between Fingers</h5>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="imgs/hand-d.png" alt="" class="img-fluid" />
+                        <h5 class="he2">Back to Hands</h5>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="imgs/hand-e.png" alt="" class="img-fluid" />
+                        <h5 class="he2">Clean with Water</h5>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="imgs/hand-f.png" alt="" class="img-fluid" />
+                        <h5 class="he2">Focus on Wrist</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="eight-sec mt-5 py-4" id="eight-sec">
+            <div class="container row mx-auto">
+                <div class="col-md-7 my-auto">
+                    <h4 class="he1">BE CAREFULL &amp; STAY SAFE</h4>
+                    <h1 class="he2">TREATMENT FOR CORONAVIRUS</h1>
+                    <p class="p-one">
+                        To date, there is no vaccine and no specific antiviral medicine to
+                        prevent or treat COVID-2019. However, those affected should
+                        receive care to relieve symptoms. People with serious illness
+                        should be hospitalized. Most patients recover thanks to supportive
+                        care.
+                    </p>
+                    <p class="p-one">
+                        Antibiotics do not help, as they do not work against viruses.
+                        Treatment aims to relieve the symptoms while your body fights the
+                        illness. You'll need to stay in isolation, away from other people,
+                        until you have recovered.
+                    </p>
+                </div>
+                <div class="col-md-5 my-auto">
+                    <h4 class="he1">Self Care</h4>
+                    <p class="p-one">
+                        If you have mild symptoms, stay at home until you’ve recovered.
+                        You can relieve your symptoms if you:
+                    </p>
+                    <h6 class="p-two">1 : Rest and sleep</h6>
+                    <h6 class="p-two">2 : Keep warm</h6>
+                    <h6 class="p-two">3 : Drink plenty of liquids</h6>
+                    <h6 class="p-two">
+                        4 : Use a room humidifier or take a hot shower to help ease a sore
+                        throat and cough
+                    </h6>
+                    <h4 class="he1">Medical Treatments</h4>
+                    <p class="p-one">
+                        If you develop a fever, cough, and have difficulty breathing,
+                        promptly seek medical care. Call in advance and tell your health
+                        provider of any recent travel or recent contact with travelers.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="nineth-sec mt-5 py-4" id="nineth-sec">
+            <div class="container">
+                <div class="row">
+                    <h4 class="he1">DO’S & DON’TS</h4>
+                    <h1 class="he2">PROTECT YOURSELF</h1>
+                    <p class="p-two"> The best thing you can do now is plan for how you can adapt your daily routine.
+                        Take few steps to protect yourself as Clean your hands often, Avoid close contact, Cover coughs
+                        and sneezes, clean daily used surfaces etc. The best way to prevent illness is to avoid being
+                        exposed to this virus. </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5 class="he2">
+                            <img src="imgs/donts-a.png" alt="" class="img-fluid" />Avoid Close Contact
+                        </h5>
+                        <h5 class="he2">
+                            <img src="imgs/donts-b.png" alt="" class="img-fluid" />Don’t Touch Face
+                        </h5>
+                        <h5 class="he2">
+                            <img src="imgs/donts-c.png" alt="" class="img-fluid" />Social Distancing
+                        </h5>
+                    </div>
+                    <div class="col-md-4 my-auto">
+                        <img class="img-fluid" alt="" src="imgs/protect.png" />
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="he2">
+                            <img src="imgs/dos-a.png" alt="" class="img-fluid" />Wash Your Hands
+                        </h5>
+                        <h5 class="he2">
+                            <img src="imgs/dos-b.png" alt="" class="img-fluid" />Drink Much Watar
+                        </h5>
+                        <h5 class="he2">
+                            <img src="imgs/dos-c.png" alt="" class="img-fluid" />Use Face Mask
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="last-sec mt-5 py-4" id="last-sec">
+            <div class="container">
+                <div class="row text-center">
+                    <h4 class="he1">RECENT FROM BLOG</h4>
+                    <h1 class="he2">last UPDATE</h1>
+                </div>
+                <div class="row text-center ">
+                    <div class="col-md-4">
+                        <img src="imgs/blog-a.jpg" alt="" class="img-fluid pb-3 rounded" />
+                        <h4 class="he3">Caring for someone at home</h4>
+                        <p class="p-two">
+                            Most people who get sick with
+                            <span class="span-two">COVID-19</span> will have only mild
+                            illness and should recover at home. Care at home can help stop
+                            the spread of <span class="span-two">COVID-19</span>.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imgs/blog-b.jpg" alt="" class="img-fluid pb-3 rounded" />
+                        <h4 class="he3">15 ways to keep safe and healthy</h4>
+                        <p class="p-two">
+                            Most people who get sick with
+                            <span class="span-two">COVID-19</span> will have only mild
+                            illness and should recover at home. Care at home can help stop
+                            the spread of <span class="span-two">COVID-19</span>.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imgs/blog-c.jpg" alt="" class="img-fluid pb-3 rounded" />
+                        <h4 class="he3">If You Think You Are Sick</h4>
+                        <p class="p-two">
+                            If you are sick with <span class="span-two">COVID-19</span> or
+                            think you might have it, follow the steps below to help protect
+                            other people in your home and community.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-sec mt-5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1 class="he2">COVID 19</h1>
+                        <p class="p-two">
+                            This website is for health information and advice about
+                            coronavirus (COVID-19), how to prevent and protect yourself from
+                            disease.
+                        </p>
+                        <p class="p-two">
+                            Learn about the government response to coronavirus on GOV.UK.
+                        </p>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="22" width="22" viewBox="0 0 512 512">
+                                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+                            </svg></a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="22" width="22" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg></a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="22" width="22" viewBox="0 0 576 512">
+                                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                            </svg></a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="22" width="22" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                            </svg></a>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="he2">QUICK LINK</h2>
+                        <ol>
+                            <li><a class="p-one" href="#">about corona</a></li>
+                            <li><a class="p-one" href="#">symptoms</a></li>
+                            <li><a class="p-one" href="#">prevention</a></li>
+                            <li><a class="p-one" href="#">protect your self</a></li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="he2">HELPFULL LINK</h2>
+                        <ol>
+                            <li><a href="#" class="p-one">who website</a></li>
+                            <li><a href="#" class="p-one">cdc website</a></li>
+                            <li><a href="#" class="p-one">nhs website</a></li>
+                            <li><a href="#" class="p-one">harverd health</a></li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="he2">important LINK</h2>
+                        <ol>
+                            <li><a href="#" class="p-one"> healthcare professional</a></li>
+                            <li><a href="#" class="p-one"> healthcare facilities</a></li>
+                            <li>
+                                <a href="#" class="p-one"> older adults & medical condition</a>
+                            </li>
+                            <li><a href="#" class="p-one"> repare your family</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <p class="p-two">
+                    2024 <span class="span-two">COVID-19</span>. Template Made by eng :
+                    <span class="span-one">Belal mohamed</span>
+                </p>
+                <p class="p-two">
+                    Disclaimer: We hope you find the information presented on this
+                    website useful. This website is for general information and raise
+                    awareness of (2019-nCoV) only. All the information based on WHO, NHS
+                    and CDC website. Information on our website is meant for awareness,
+                    if you have any doubt please verify from respective site .
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="./assests/js/bootstrap.min.js"></script>
+
+    <!-- jquery js -->
+    <script src="assests/js/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <!-- main js -->
+    <script src="main.js"></script>
+</body>
+
+</html>
